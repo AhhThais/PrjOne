@@ -100,20 +100,6 @@ hr {
     width: 100%;
     height: auto;
 }
-@media screen and (max-width:600px) {
-    .main_content {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1024px) and (min-width: 740px) {
-    .main_content {
-        width: 25%;
-    }
-    .footer {
-        margin: 118px;
-    }
-}
-
 
 .footer {
     height: 10vh;
@@ -126,4 +112,21 @@ hr {
 }
 .footer .icon_ins {
     margin: 10px;
+}
+
+
+
+/* Responvive */
+@media screen and (max-width:600px) {
+    .main_content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 740px) {
+    .main_content {
+        width: 25%;
+    }
+    .footer {
+        margin: 118px;
+    }
 }
