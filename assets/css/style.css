@@ -105,6 +105,14 @@ hr {
     width: 100%;
   }
 }
+@media screen and (max-width: 1024px) and (min-width: 740px) {
+    .main_content {
+        width: 25%;
+    }
+    .footer {
+        margin: 125px;
+    }
+}
 
 
 .footer {
